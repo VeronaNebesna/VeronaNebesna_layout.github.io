@@ -1,0 +1,530 @@
+/* -----------------------------HEADER--------------------- */
+.img_back{
+    min-height: 400px;
+    background-size: auto;
+    background:url(/img/header_background.jpg) no-repeat center;
+}
+
+.logo_name{
+    color:rgb(255, 255, 255);
+    padding:17px;
+    font-size:40px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+.header_row{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---------------MENU----------- */
+
+.menu{
+    display:flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: scroll ;
+    
+}
+.menu > li{
+    width: 100%;
+    margin-right: 15px;
+    border: 4px double rgba(221, 215, 215, 0);
+    
+    
+}
+.menu a{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    padding:5px;
+    font-size:15px;
+    font-weight: 400;
+    color:rgb(255, 255, 255);
+    
+}
+.menu li:hover{
+    border:4px double rgb(255, 255, 255);
+    border-radius: 10px;
+}
+/* -----------------------------SECTION WHITE--------------------- */
+/* ------------------ СПИСОК ПОРІД--------------- */
+.description_dog{
+    margin-bottom:40px;
+}
+.list_of_dog{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.list_of_dog ul{
+    display: flex;
+    justify-content: space-between;
+}
+.list_of_dog a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color:rgb(10, 101, 185);
+    font-size:15px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+/* ------------------ ПОРОДА І ЦІНА--------------- */
+.name_price_dog{
+    display: flex;
+    margin-top:20px;
+ 
+}
+.name_of_dog p{
+    color:rgb(0,0,0);
+    padding-bottom:10px;
+    font-weight: 500;
+}
+.name_of_dog p.numb{
+    font-weight: 600;
+    color:rgb(150,150,150);
+}
+.price{
+    margin-left:30px;
+    font-weight: 600;
+    color:rgb(10, 101, 185);
+}
+.text_description > p{
+    color:rgb(0,0,0);
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+.book_now{
+    background-color:rgb(10, 101, 185);
+    border:none;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+
+}
+/* ------------------ ВІДГУК-------------- */
+.image{
+    margin-top:20px;
+}
+.image img{
+    max-width: 100%;
+    border: 1px solid rgb(222, 226, 230);
+    padding: 5px;
+    border-radius: 5px;
+}
+.headline_review p{
+    font-size:17px;
+    font-weight: 500;
+    margin-top:15px;
+}
+.stars{
+    margin:20px 0;
+}
+.text_review p{
+    margin-bottom:15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+/* ------------------ СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ-------------- */
+.headline_special_offer{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.all_breed{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dogs img{
+    border: 1px solid rgb(222, 226, 230);
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+.dogs{
+    margin-bottom: 20px;
+}
+.name{
+    font-size: 20px;
+    color:rgb(10, 101, 185);
+    font-weight: 500;
+    text-align: center;
+    margin:15px 0;
+}
+.description{
+    text-align: center;
+}
+
+
+
+/* -----------------------------SECTION DARK FIRST--------------------- */
+.first{
+    background: rgb(255, 255, 255) url(/img/dark_backg.jpg) no-repeat 50% 50%;
+    min-height: 500px;
+    background-size: cover;
+}
+.fact_row{
+    flex-direction: column;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.headline {
+    padding-top:50px;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:30px;
+    text-align: center;
+    padding-bottom:50px;
+}
+.dark{
+    color:rgb(255, 255, 255);
+}
+.fact{
+    width: 100%;
+    min-height: 100px;
+    padding:15px;
+    text-align: center;
+    line-height: 25px;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow:3px 3px 10px 2px black;
+    margin-bottom:20px
+}
+.fact_num{
+    color:rgb(10, 101, 185);
+    font-size:30px
+}
+.fact_name{
+    font-weight: 500;
+    font-size:25px;
+    padding:15px 0;
+}
+
+
+/* -----------------------------SECTION WHITE TRAINERS --------------------- */
+.trainers_section{
+   background: url(/img/white_back.jpg) no-repeat 0% 0%;
+   background-size:cover;
+}
+.white{
+    color:rgb(0,0,0);
+}
+.trainers_row{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:20px;
+}
+.trainers_img{
+    display:flex;
+    justify-content: center;
+    position: relative;
+}
+.trainers_img img{
+    max-width: 100%;
+    
+}
+.trainers_img p{
+    transform: rotate(270deg);
+    position: absolute;
+    font-size:20px;
+    right: 0;
+    bottom:40px;
+    font-weight: 500;
+}
+
+/* ----------------SOCIAL ICONS---------------- */
+.social_icons_trainer{
+    display:flex;
+    margin-top:20px;
+    margin-bottom:40px;
+    justify-content: center;
+}
+.facebook, .twitter, .rss{
+    width: 40px;
+    height:40px;
+    cursor: pointer;
+}
+.facebook{
+    background: url(/img/facebook.png) no-repeat 50% 50%;
+}
+.twitter{
+    background: url(/img/twitter.png) no-repeat 50% 50%;
+  
+}
+.rss{
+    background: url(/img/rss.png) no-repeat 50% 50%;
+   
+}
+.facebook:hover, .twitter:hover, .rss:hover{
+    background-color: rgb(194, 173, 173);
+    border-radius: 30px;
+}
+
+
+
+/* -----------------------------SECTION DARK SECOND--------------------- */
+.second{
+    background: url(/img/dark_back_2.jpg) no-repeat 50% 50%;
+    background-size:auto;
+}
+.opening_hours{
+    width: 100%;
+    background-color:rgba(255,255,255,0.7);
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-bottom:20px;
+    margin-bottom:50px
+}
+.working_days{
+    margin-top:25px
+}
+.opening_hours div{
+    margin-bottom:25px;
+}
+.working_days > p, .weekend > p{
+    line-height: 25px;
+    text-align:center;
+}
+.days{
+    font-weight: 500;
+    font-size:20px;
+}
+.hours{
+    font-size:20px;
+}
+
+/* -----------------------------SECTION WHITE LETTERS --------------------- */
+
+.text_letters > p{
+    line-height: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.email_row{
+    margin:20px 0;
+}
+.email{
+    display:flex;
+    flex-direction:column;
+}
+input{
+    width: 100%;
+    padding:10px;
+    margin:15px 0;
+}
+.but_sub{
+    display:flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.subscribe{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(10, 101, 185);
+    color:rgb(255, 255, 255);
+    border:none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(81, 152, 218);
+    transition: 1s;
+}
+/* -------------- ABOUT US------------ */
+
+
+.name_about{
+    color:rgb(10, 101, 185);
+    font-size:23px;
+    font-weight: 500;
+}
+.text_about_us > p{
+    line-height: 25px;
+    margin:15px 0;
+    text-align: center;
+}
+.contact_about_us > p{
+    margin:10px 0;
+    text-align: center;
+}
+.text_about_us, .contact_about_us{
+    margin-bottom:20px;
+}
+.ABOUT_US_ROW{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:30px;
+
+}
+
+
+
+
+/* -----------------------------FOOTER --------------------- */
+.footer{
+    background-color: rgb(83, 79, 79);
+    border-top:1px solid rgb(0,0,0);
+    min-height: 100px;
+}
+.footer_links{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom:15px;
+}
+.footer_text{
+    padding-top:20px;
+    line-height:20px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-align: center;
+}
+
+.arrow_footer{
+    background: url(/img/arrow.png) no-repeat 50% 50%;
+    width: 50px;
+    height:50px;
+    border:none;
+    margin:0 auto;
+    cursor: pointer;
+}
+.slider{
+    height: 50px;
+    background-color: rgb(10, 101, 185);
+}
+.text_slider p{
+    text-align: center;
+    color: rgb(255,255,255);
+    line-height: 50px;
+}
+.text_slider p i{
+    color: rgba(221, 215, 215, 0.836);
+}
+/* -----------------------------МЕДІАЗАПИТИ-------------------- */
+
+/* Mobile */
+@media(max-width:767px){
+  
+}
+
+/* Tablet */
+@media(min-width:768px){
+    .img_back{
+        min-height: 545px;
+    }
+    .logo_name{
+        justify-content:flex-start;
+    }
+    .header_row{
+        flex-direction: row;
+    }
+    .menu{
+        display: flex;
+        overflow-x: auto;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .menu a{
+        font-size:15px;
+        
+    } 
+   
+    .list_of_dog ul{
+        justify-content: flex-start;
+    }
+    .name_of_dog p, .text_description p, .list_of_dog a, .price{
+        font-size:15px;
+    }
+    .all_breed{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .fact_row{
+        flex-direction:row;
+    }
+    .trainers_row{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .trainers_img p{
+        right: 20px;
+    }
+    .working_days, .weekend{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .opening_hours{
+        width: 60%;
+    }
+    .ABOUT_US_ROW{
+        flex-direction: row;
+    }
+    .email_row{
+        flex-direction: row;
+    }
+    
+  
+}
+
+/* Laptop */
+
+@media(min-width:992px){
+    .img_back{
+        min-height: 600px;
+    }
+   .menu a{
+       font-size:20px
+   }
+    .row{
+        flex-direction: row;
+    }
+    .description_dog{
+        margin-top:40px;
+      
+    }
+    .trainers_img p{
+        right: 80px;
+    }
+    .opening_hours{
+        width: 50%;
+    }
+    .subscribe{
+        width: 200px;
+    }
+    .arrow{
+        top:7px;
+    }
+}
+
+/* Desktop */
+@media(min-width:1200px){
+    .img_back{
+        min-height: 700px;
+    }
+    .trainers_img p{
+        right: 110px;
+    }
+    .first{
+        background: rgb(255, 255, 255) url(/img/dark_backg.jpg) no-repeat 50% 20%;
+        background-size: cover;
+    }
+    .opening_hours{
+        width: 40%;
+    }
+    
+}
