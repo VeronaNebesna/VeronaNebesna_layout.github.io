@@ -2,7 +2,7 @@
 .img_back{
     min-height: 400px;
     background-size: auto;
-    background:url(/img/header_background.jpg) no-repeat center;
+    background:url(img/header_background.jpg) no-repeat center;
 }
 
 .logo_name{
@@ -169,7 +169,7 @@
 
 /* -----------------------------SECTION DARK FIRST--------------------- */
 .first{
-    background: rgb(255, 255, 255) url(/img/dark_backg.jpg) no-repeat 50% 50%;
+    background: rgb(255, 255, 255) url(img/dark_backg.jpg) no-repeat 50% 50%;
     min-height: 500px;
     background-size: cover;
 }
@@ -214,7 +214,7 @@
 
 /* -----------------------------SECTION WHITE TRAINERS --------------------- */
 .trainers_section{
-   background: url(/img/white_back.jpg) no-repeat 0% 0%;
+   background: url(img/white_back.jpg) no-repeat 0% 0%;
    background-size:cover;
 }
 .white{
@@ -256,14 +256,14 @@
     cursor: pointer;
 }
 .facebook{
-    background: url(/img/facebook.png) no-repeat 50% 50%;
+    background: url(img/facebook.png) no-repeat 50% 50%;
 }
 .twitter{
-    background: url(/img/twitter.png) no-repeat 50% 50%;
+    background: url(img/twitter.png) no-repeat 50% 50%;
   
 }
 .rss{
-    background: url(/img/rss.png) no-repeat 50% 50%;
+    background: url(img/rss.png) no-repeat 50% 50%;
    
 }
 .facebook:hover, .twitter:hover, .rss:hover{
@@ -275,7 +275,7 @@
 
 /* -----------------------------SECTION DARK SECOND--------------------- */
 .second{
-    background: url(/img/dark_back_2.jpg) no-repeat 50% 50%;
+    background: url(img/dark_back_2.jpg) no-repeat 50% 50%;
     background-size:auto;
 }
 .opening_hours{
@@ -394,7 +394,7 @@ button:hover{
 }
 
 .arrow_footer{
-    background: url(/img/arrow.png) no-repeat 50% 50%;
+    background: url(img/arrow.png) no-repeat 50% 50%;
     width: 50px;
     height:50px;
     border:none;
