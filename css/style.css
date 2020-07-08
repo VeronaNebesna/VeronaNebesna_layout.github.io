@@ -49,6 +49,32 @@
     border:4px double rgb(255, 255, 255);
     border-radius: 10px;
 }
+.slider_dog{
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+.slider_dog  .title_name_dog{
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size:35px;
+    font-weight: 700;
+    line-height:40px;
+}
+.slider_dog p{
+   padding:10px 0;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+}
+.slider_dog button{
+    border: 1px solid white;
+}
+.slider_dog button a{
+    text-decoration: none;
+    color:white
+}
 /* -----------------------------SECTION WHITE--------------------- */
 /* ------------------ СПИСОК ПОРІД--------------- */
 .description_dog{
@@ -509,6 +535,13 @@ button:hover{
     .arrow{
         top:7px;
     }
+    .slider_dog  .title_name_dog{
+        font-size:45px;
+    }
+    .slider_dog p{
+       padding:15px 0;
+    }
+    
 }
 
 /* Desktop */

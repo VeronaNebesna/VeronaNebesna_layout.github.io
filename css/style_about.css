@@ -26,3 +26,16 @@
     font-size:15px;
     font-weight: 400;
 }
+
+
+.slider_foto_dog img{
+    width: 100%;
+}
+
+
+@media(min-width:992px){
+    .slider_foto_dog img{
+        width: 100%;
+    }
+    
+}
