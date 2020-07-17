@@ -33,5 +33,58 @@ $(".arrow_footer").click(function(){
      burgerMenu.classList.toggle("active_menu")
    
  })
-  
+  // ---------------Анімація блоків------------
   AOS.init();
+
+
+// ---------------TABS-----------
+
+let nameOfTabs = document.querySelectorAll(".name_tab");
+// console.log(nameOfTabs);
+
+let contantOfTabs = document.querySelectorAll(".tab");
+// console.log(contantOfTabs);
+
+
+function hideContantsTabs(i){
+  contantOfTabs[i].classList.remove("show");
+  contantOfTabs[i].classList.add("hide");
+ 
+}
+
+function showContantsTabs(i){
+  contantOfTabs[i].classList.add("show");
+  contantOfTabs[i].classList.remove("hide");
+}
+
+function addColorNameTabs(i){
+  nameOfTabs[i].classList.add("click_tab_name");
+}
+
+function removeColorNameTabs(i){
+   nameOfTabs[i].classList.remove("click_tab_name");
+}
+
+for(let i=0; i<nameOfTabs.length;i++){
+  hideContantsTabs(1);
+}
+
+for(let i=0; i<nameOfTabs.length;i++){
+nameOfTabs[i].addEventListener("click",function(e){
+  if(e.target.classList.contains("name_tab")){
+    showContantsTabs(i);
+    addColorNameTabs(i);
+    if(contantOfTabs[i].classList.contains("show")){
+      for(let j =0; j<nameOfTabs.length; j++){
+        if(j !==i){
+          hideContantsTabs(j);
+          removeColorNameTabs(j);
+        }
+      }
+
+    }
+    
+}
+})
+
+}

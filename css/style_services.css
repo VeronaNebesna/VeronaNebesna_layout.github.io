@@ -22,38 +22,71 @@
 .service_row{
     display:flex;
     flex-direction: column;
-    margin-bottom:20px;
+    margin-bottom:100px;
 }
 
 .package_section{
     background: url(../img/dark_back_2.jpg) no-repeat 0% 0%;
     background-size:cover;
 }
-.package{
-    max-width: 100%;
-    background-color: rgba(255,255,255,0.7);
-    text-align: center;
-    padding:25px 0;
-    margin-bottom:30px;
+
+.tabs{
+    width: 100%;
+    background-color: rgba(255,255,255,0.3);
 }
-.package_row{
+.header_tabs{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    cursor:pointer;
+    justify-content: space-around;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color:rgb(172, 158, 158);
+
 }
-.name_pack{
-    font-size: 20px;
-    font-weight:500;
-    padding-bottom:25px
-   
+.name_tab{
+    padding:10px;
+    width: 100%;
+    text-align: center; 
 }
+.name_tab:hover{
+    background-color:rgb(107, 98, 98);
+    transition: 1s;
+}
+.click_tab_name{
+    background-color:rgb(107, 98, 98);
+}
+.tabs_container{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.tab{
+    margin-left: 20px;
+    display: none;
+    padding:15px 0;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
 .list_of_service > li{
-    padding-bottom:20px
+    padding-bottom:20px;
+    color: rgb(58, 53, 53);
+    font-weight:600;
+    
 }
 .price_pack{
-    font-size:25px;
+    font-size:20px;
     font-weight: 500;
     margin:2px 0 25px 0;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -65,5 +98,18 @@
     .package_row{
         flex-direction: row;
     }
+    .header_tabs{
+        font-size: 20px;
+    }
+    .name_tab{
+        padding:20px;
+    }
+    .price_pack{
+        font-size:25px;
+    }
 
+}
+
+
+@media(min-width:992px){
 }
