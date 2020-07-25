@@ -88,3 +88,16 @@ nameOfTabs[i].addEventListener("click",function(e){
 })
 
 }
+
+
+    // ----------------------MENU SCROLL
+
+    let scrollMenu = document.querySelector(".header_sticky");
+    console.log(scrollMenu);
+    window.addEventListener("scroll",function(){
+      scrollMenu.classList.add("fixed_menu");
+      if(window.pageYOffset == 0){
+        scrollMenu.classList.remove("fixed_menu");
+      }
+    })
+    

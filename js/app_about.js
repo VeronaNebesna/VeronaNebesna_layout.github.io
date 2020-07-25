@@ -45,3 +45,14 @@ $(".arrow_footer").click(function(){
       burgerMenu.classList.toggle("active_menu")
     
   })
+
+    // ----------------------MENU SCROLL
+
+let scrollMenu = document.querySelector(".header_sticky");
+console.log(scrollMenu);
+window.addEventListener("scroll",function(){
+  scrollMenu.classList.add("fixed_menu");
+  if(window.pageYOffset == 0){
+    scrollMenu.classList.remove("fixed_menu");
+  }
+})
