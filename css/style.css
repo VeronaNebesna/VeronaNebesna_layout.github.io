@@ -91,6 +91,10 @@ section{
     text-decoration: none;
     color:white
 }
+.text_slider a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
 /* -----------------------------SECTION WHITE--------------------- */
 /* ------------------ СПИСОК ПОРІД--------------- */
 .description_dog{
